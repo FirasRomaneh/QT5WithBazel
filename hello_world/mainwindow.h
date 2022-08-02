@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <qt5/QtCore/QObject>
-#include <qt5/QtWidgets/QGraphicsScene>
 #include <qt5/QtWidgets/QMainWindow>
 
 #include "hello_world/ui_mainwindow.h"

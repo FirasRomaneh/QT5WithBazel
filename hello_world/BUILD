@@ -23,6 +23,7 @@ cc_binary(
         '-fpic',
     ],
     deps = [
+        ":opencv",
         ":mainwindow",
         "@qt//:qt_widgets",
     ],
@@ -40,7 +41,6 @@ qt_cc_library(
         '-fpic',
     ],
     deps = [
-        ":opencv",
         "@qt//:qt_core",
         "@qt//:qt_widgets",
         "@qt//:qt_gui",
